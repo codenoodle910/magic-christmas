@@ -506,7 +506,7 @@
                     const avgDist = openDist / 4;
                     const pinchDist = Math.hypot(lm[4].x-lm[8].x, lm[4].y-lm[8].y);
 
-                    if (avgDist < 0.25) { 
+                    if (avgDist < 0.32) { 
                         state = 'TREE'; 
                     } else if (pinchDist < 0.05) {
                         state = 'PHOTO'; 

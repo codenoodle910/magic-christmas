@@ -409,8 +409,8 @@
         function animate() {
             requestAnimationFrame(animate);
             const time = Date.now() * 0.001;
-            const speed = 0.15;
-            const handRotY = (handX - 0.5) * 8.0;
+            const speed = 0.2;
+            const handRotY = (handX - 0.5) * 10.0;
 
             updateParticleGroup(groupGold, 'gold', state, speed, handRotY, time);
             updateParticleGroup(groupRed, 'red', state, speed, handRotY, time);
